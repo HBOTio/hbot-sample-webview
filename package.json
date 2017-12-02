@@ -1,0 +1,16 @@
+{
+  "name": "sample-webview",
+  "version": "1.0.0",
+  "description": "ขั้นตอนการใช้งาน Webview ร่วมกับ Broadcast 1. เปิด Webview เพื่อรับ Parameter `user_id` เพื่อใช้สำหรับส่งข้อมูล 2. สร้าง Data สำหรับส่งไปที่ฝั่ง Server 3. ฝั่ง Server รับ Request มาประมวลผล แล้วส่งกลับในรูปแบบของ Broadcast Message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
